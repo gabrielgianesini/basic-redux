@@ -4,9 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev index.ts"
+    "dev": "ts-node-dev index.ts",
+    "devT": "ts-node-dev index-toolkit.ts"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.8.2",
     "redux": "^4.2.0"
   },
   "devDependencies": {
